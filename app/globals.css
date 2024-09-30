@@ -28,7 +28,7 @@ body {
 
 @layer base {
   :root {
-    --primary-color: #7379FF;
+    --primary-color: #bd0f49;
     --secondary-color: #242424;
     --bg-color: #E9EBF6;
     --text-color-light: #666666;
@@ -38,7 +38,7 @@ body {
     --text-color-dark: #242424;
     --lowContrastColor: #e7e7e7;
 
-    --background: 0 0% 100%;
+    --background: 0 0% 0%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -70,7 +70,7 @@ body {
   }
 
   .dark {
-    --primary-color: #7379FF;
+    --primary-color: #880007;
     --secondary-color: #242424;
     --bg-color: #0F0F0F;
     --text-color-light: #707070;
@@ -79,7 +79,7 @@ body {
     --color-2: #5255b6;
     --lowContrastColor: #1b1b1b;
 
-    --background: 222.2 84% 4.9%;
+    --background: 0 0% 0%;
     --foreground: 210 40% 98%;
 
     --card: 222.2 84% 4.9%;
