@@ -35,7 +35,7 @@ function EntryPage(props: Props) {
           </p>
         </div>
       </div>
-      <div className="-z-2 absolute top-0 mt-[13%] h-[75%] w-full">
+      <div className="-z-2 absolute top-0 mt-[40vw] lg:mt-[13%] h-[75%] w-full">
         <Spline scene="https://prod.spline.design/NW0QHz3WXlqQ68W5/scene.splinecode" />
       </div>
     </>

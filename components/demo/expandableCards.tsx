@@ -44,7 +44,7 @@ export function TimelineDemo() {
           <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-lg font-bold mb-8">
             Software Intern at <span className="text-red-500">Mahindra Logistics</span>
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="hidden lg:block text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
           Completely revamped LogiPulse - Mahindra’s KPI monitoring application for warehouses and Improved average API latency from 520ms to 170ms and decreased page render latency by over 30% with selective rendering.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -87,7 +87,7 @@ export function TimelineDemo() {
           <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-lg font-bold mb-4">
             Started BTech. at <span className="text-red-500">NSUT</span>
           </p>
-          <div className="mb-8">
+          <div className="hidden lg:block mb-8">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               ✅ Crazy Fun
             </div>

@@ -25,7 +25,7 @@ function AncientPowers(props: Props) {
 
         <EvervaultCard text="Discover" />
       </div>
-      <div className="w-[60vw]">
+      <div className="w-[80%] lg:w-[60vw]">
         <TextGenerateEffect words={powerWords} />
       </div>
     </FollowerPointerCard>

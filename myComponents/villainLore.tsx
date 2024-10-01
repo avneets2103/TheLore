@@ -7,7 +7,7 @@ function VillainLore() {
 
   return (
     <div className="relative flex h-full w-full items-center justify-center">
-      <div className="w-[80%]">
+      <div className="lg:w-[80%]">
         <TextGenerateEffect words={lore} />
       </div>
     </div>

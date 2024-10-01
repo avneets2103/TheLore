@@ -8,8 +8,10 @@ import { LinkPreview } from "@/components/ui/link-preview";
 function Trinity() {
   return (
     <>
-      <div className="-z-2 absolute top-0 h-full w-full">
-        <Spline scene="https://prod.spline.design/LfXBcFPEMtpGi2Lc/scene.splinecode" />
+      <div className="-z-2 absolute top-0 flex h-full w-full items-center justify-center">
+        <div className="h-[45%] lg:h-full w-full">
+          <Spline scene="https://prod.spline.design/LfXBcFPEMtpGi2Lc/scene.splinecode" />
+        </div>
       </div>
       <div className="absolute flex h-screen w-screen items-center justify-center gap-6 -z-2">
         <Button
