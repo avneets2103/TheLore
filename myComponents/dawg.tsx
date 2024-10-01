@@ -7,7 +7,7 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 interface Props {}
 
 function Dawg(props: Props) {
-  const storywords = `Once upon a time, there was a Developer.      He had that D.A.W.G. in him . Debugging . All . Weekend . Guaranteed .      This is his story! Story of Developer Avneet 🦸🏼‍♂️`;
+  const storywords = `Once upon a Time, there was a Developer...      He had that D.A.W.G. in him . Debugging . All . Weekend . Guaranteed .      This is his story! The Story of Developer Avneet 🦸🏼‍♂️`;
   const {} = props;
 
   return (

@@ -10,7 +10,7 @@ interface Props {}
 
 function AncientPowers(props: Props) {
   const {} = props;
-  const powerWords = "In his quest through the forest, he discovered the POWERS OF THE GODS! ⚡️"
+  const powerWords = "In his quest through the forest, He discovered the ANCIENT POWERS OF THE GODS! ⚡️"
 
   return (
     <FollowerPointerCard

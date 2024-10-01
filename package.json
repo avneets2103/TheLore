@@ -22,7 +22,7 @@
     "@reduxjs/toolkit": "^2.2.5",
     "@splinetool/react-spline": "^4.0.0",
     "@splinetool/runtime": "^1.9.28",
-    "@tabler/icons-react": "^3.17.0",
+    "@tabler/icons-react": "^3.19.0",
     "@tsparticles/engine": "^3.5.0",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.5.0",

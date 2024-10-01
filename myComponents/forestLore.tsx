@@ -3,7 +3,7 @@ import React from "react";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 function ForestLore() {
-  const lore = `The LORE starts in the Deadly forest of    N.S.U.T.,where he seized a GPA of 8.71 from the woods.`;
+  const lore = `His story starts in the Deadly forest of    N.S.U.T.,where he seized a GPA of 8.71 from the woods.`;
 
   return (
     <div className="relative flex h-full w-full items-center justify-center bg-black">

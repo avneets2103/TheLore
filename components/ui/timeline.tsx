@@ -14,7 +14,7 @@ interface TimelineEntry {
 }
 
 export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
-  const storywords = `In his quest he fought in many armies, and is still fighting!`
+  const storywords = `Fighting along side Armies who deemed him Worthy!`
   const allHail = `All hail the Champion!`
   const ref = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);

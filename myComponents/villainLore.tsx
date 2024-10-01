@@ -3,7 +3,7 @@ import React from "react";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 function VillainLore() {
-  const lore = `Using these godly powers, he defeated many Villains`;
+  const lore = `And Used them to defeat many Deadly Villains`;
 
   return (
     <div className="relative flex h-full w-full items-center justify-center">
