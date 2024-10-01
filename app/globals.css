@@ -26,6 +26,10 @@ body {
   font-stretch: 100%;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 @layer base {
   :root {
     --primary-color: #bd0f49;
