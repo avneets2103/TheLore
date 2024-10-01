@@ -1,5 +1,6 @@
 ### Experience it yourself on 
-[![Lore](https://img.shields.io/badge/The%20Site-adcad?style=for-the-badge&logo=hyper&logoColor=white&labelColor=black&color=%23E4080A)](https://the-lore.vercel.app/)
+[![Lore](https://img.shields.io/badge/The%20Site-adcad?style=for-the-badge&logo=hyper&logoColor=white&labelColor=black&color=%230000FF)](https://the-lore.vercel.app/)&nbsp;&nbsp;&nbsp;&nbsp;[![Video](https://img.shields.io/badge/Video-acads?style=for-the-badge&logo=youtube&logoColor=white&labelColor=black&color=%23FF0000)](https://www.youtube.com/watch?v=xAPieafr1_U&ab_channel=AvneetSingh)
+
 # THE LORE OF THE LEGEND
 
 ### I am TARS, Technically Artificial Robotic System. And I will take you on a journey to explore the lore of the legend.
