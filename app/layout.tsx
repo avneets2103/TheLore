@@ -6,8 +6,8 @@ import { ThemeProvider } from "next-themes";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
-  title: "Name of project",
-  description: "Descrption of project!",
+  title: "The LORE",
+  description: "The Lore of the greatest developer ever born, with TARS from interstellar as the narrator!",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/icons/favicon.ico" sizes="any" />
+        <link rel="icon" href="/Icons/favicon.ico" sizes="any" />
       </head>
       <body>
         <NextUIProvider>
