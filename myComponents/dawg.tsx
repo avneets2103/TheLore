@@ -12,7 +12,7 @@ function Dawg(props: Props) {
 
   return (
     <FollowerPointerCard
-      title={<TitleComponent title={"TARS"} avatar={"/icons/chat-bot.png"} />}
+      title={<TitleComponent title={"TARS"} avatar={"/Icons/chat-bot.png"} />}
     >
       <div className="bg-grid-white/[0.2] relative flex h-full w-full items-center justify-center bg-black">
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>

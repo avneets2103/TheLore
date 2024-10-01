@@ -14,7 +14,7 @@ function AncientPowers(props: Props) {
 
   return (
     <FollowerPointerCard
-    title={<TitleComponent title={"TARS"} avatar={"/icons/chat-bot.png"} />}
+    title={<TitleComponent title={"TARS"} avatar={"/Icons/chat-bot.png"} />}
     className="flex flex-col items-center gap-4 m-4"
     >
       <div className="relative mx-auto flex h-[60vh] w-[70vw] flex-col items-start border border-black/[0.2] p-4 dark:border-white/[0.2]">

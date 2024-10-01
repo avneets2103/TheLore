@@ -107,7 +107,7 @@ export function Villains() {
                     >
                         <div className="flex gap-1 items-center">
                             <p>Github</p>
-                            <Image src="/icons/github.png" width={100} height={100} alt="github" className="h-4 w-4" />
+                            <Image src="/Icons/github.png" width={100} height={100} alt="github" className="h-4 w-4" />
                         </div>
                     </motion.a>
                     <motion.a
@@ -221,7 +221,7 @@ const cards = [
   {
     description: "Full Stack Doctor!",
     title: "Medix",
-    src: "/icons/doctor.png",
+    src: "/Icons/doctor.png",
     ctaText: "Investigate",
     ctaLink: "https://btp-web-tau.vercel.app/login",
     activeSrc: "/medixMain.svg",
@@ -242,7 +242,7 @@ const cards = [
   {
     description: "The Serial-Mailer!",
     title: "ColdMailer",
-    src: "/icons/gmail.png",
+    src: "/Icons/gmail.png",
     ctaText: "Investigate",
     ctaLink: "https://youtu.be/4YP3mwAaI9In",
     activeSrc: "/coldMain.svg",
@@ -263,7 +263,7 @@ const cards = [
   {
     description: "The GTA driver!",
     title: "A Better Car",
-    src: "/icons/car.png",
+    src: "/Icons/car.png",
     ctaText: "Investigate",
     ctaLink: "https://drive.google.com/file/d/1IEzZMl-g5IumpMpnrKEmvw1gYndULOdu/view?usp=sharing",
     activeSrc: "/carMain.svg",
@@ -284,7 +284,7 @@ const cards = [
   {
     description: "The Killer Of Darwin!",
     title: "Darwin's Evolution",
-    src: "/icons/evolution.png",
+    src: "/Icons/evolution.png",
     ctaText: "Investigate",
     ctaLink: "https://www.youtube.com/watch?v=tYSzAyuey0s&ab_channel=AvneetSingh",
     activeSrc: "/darwinMain.png",

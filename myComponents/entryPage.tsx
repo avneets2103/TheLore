@@ -31,7 +31,7 @@ function EntryPage(props: Props) {
             <span className="font-semibold text-white">S</span>ystem
           </p>
           <p className="text-sm text-gray-400">
-            Let me tell you a story, HIS STORY{" "}
+            Let me tell you a story!
           </p>
         </div>
       </div>
