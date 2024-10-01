@@ -28,7 +28,7 @@ function Trinity() {
           <p className="text-medium font-semibold">
             <LinkPreview
               url="/#trinity"
-              imageSrc="/linkedin.png"
+              imageSrc="/Linkedin.png"
               isStatic
             >
               LinkedIn
