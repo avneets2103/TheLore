@@ -10,11 +10,15 @@ import VillainLore from "@/myComponents/villainLore";
 import Trinity from "@/myComponents/trinity";
 import { TimelineDemo } from "@/components/demo/expandableCards";
 import { FloatingDockDemo } from "@/myComponents/dock";
+import TARSbot from "@/myComponents/TARSbot";
 
 export default function Home() {
   return (
     <>
       <ThemeComponent />
+      <div className="fixed top-2 right-2 mx-auto z-10">
+        <TARSbot/>
+      </div>
       <div className="fixed bottom-2 mx-auto z-10 w-[100vw]">
         <FloatingDockDemo/>
       </div>
