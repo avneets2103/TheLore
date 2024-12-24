@@ -6,6 +6,7 @@ import {
 } from "@nextui-org/react";
 import Loader from "@/components/ui/loader";
 import { aboutMe } from "@/CONSTANTS";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface Message {
   text: string;
@@ -98,8 +99,14 @@ function TARSbot() {
           TARS Bot
         </Button>
       </div>
+      <AnimatePresence>
       {chatOpen && (
-        <div className="bg-gray-900/50 backdrop-blur-sm rounded-[10px] p-3 mt-2">
+        <motion.div className="bg-gray-900/50 backdrop-blur-sm rounded-[10px] p-3 mt-2"
+          initial={{ opacity: 0, translateX: 20 }}
+          animate={{ opacity: 1, translateX: 0 }}
+          exit={{ opacity: 0, translateX: 20 }}
+          transition={{ duration: 0.3 }}
+        >
           <div className="m-2 flex lg:w-[40vw] flex-col gap-4">
             <div>
               <p className="text-lg font-semibold">Ask TARS Anything!</p>
@@ -174,8 +181,9 @@ function TARSbot() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       )}
+      </AnimatePresence>
     </>
   );
 }
