@@ -107,7 +107,7 @@ export function Villains() {
                     >
                         <div className="flex gap-1 items-center">
                             <p>Github</p>
-                            <Image src="/Icons/github.png" width={100} height={100} alt="github" className="h-4 w-4" />
+                            <img src="/Icons/github.png" width={100} height={100} alt="github" className="h-4 w-4" />
                         </div>
                     </motion.a>
                     <motion.a
@@ -148,7 +148,7 @@ export function Villains() {
           >
             <div className="flex gap-4 flex-col md:flex-row ">
               <motion.div layoutId={`image-${card.title}-${id}`}>
-                <Image
+                <img
                   width={100}
                   height={100}
                   src={card.src}

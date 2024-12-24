@@ -8,7 +8,7 @@ export function FloatingDockDemo() {
     {
       title: "TARS",
       icon: (
-        <Image src="/Icons/TARS.png" width={20} height={20} alt="TARS" className="rounded-lg w-5 h-5"/>
+        <img src="/Icons/TARS.png" width={20} height={20} alt="TARS" className="rounded-lg w-5 h-5"/>
       ),
       href: "#TARS",
     },
@@ -52,7 +52,7 @@ export function FloatingDockDemo() {
     {
       title: "Trinity",
       icon: (
-        <Image src="/Icons/githubW.png" width={20} height={20} alt="TARS" className="rounded-lg w-5 h-5"/>
+        <img src="/Icons/githubW.png" width={20} height={20} alt="TARS" className="rounded-lg w-5 h-5"/>
       ),
       href: "#trinity",
     },

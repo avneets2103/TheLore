@@ -17,7 +17,7 @@ function Trinity() {
         <Button
           variant="flat"
           startContent={
-            <Image
+            <img
               src="/Icons/linkedin.png"
               alt="linkedin"
               width={20}
@@ -40,7 +40,7 @@ function Trinity() {
         <Button
           variant="flat"
           startContent={
-            <Image
+            <img
               src="/Icons/githubW.png"
               alt="github"
               width={20}
@@ -63,7 +63,7 @@ function Trinity() {
         <Button
           variant="flat"
           startContent={
-            <Image
+            <img
               src="/Icons/code.png"
               alt="leetcode"
               width={20}

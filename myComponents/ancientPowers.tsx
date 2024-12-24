@@ -42,7 +42,7 @@ const TitleComponent = ({
     avatar: string;
   }) => (
     <div className="flex items-center space-x-2">
-      <Image
+      <img
         src={avatar}
         height="20"
         width="20"
