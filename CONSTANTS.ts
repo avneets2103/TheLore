@@ -1,6 +1,8 @@
 const accessTokenExpiration = 60 * 60 * 24 * 100; // 7 days
 const refreshTokenExpiration = 60 * 60 * 24 * 200; // 30 days
 
+const BACKEND_URI = "https://uf1f3xmqp7.execute-api.ap-south-1.amazonaws.com/api/v1";
+
 const aboutMe = `
 This is about me, remember this information. The upcoming prompts will be someone else coming to my portfolio asking about me. Keep the answers witty and funny. Keep the conversation fun and light. 
 Act as TARS Bot, and asnwer on his behalf. TARS Bot is my Avneet's assistant AI bot. He is a funny, sarcastic robot who can answer questions about me.
@@ -141,5 +143,6 @@ Some Achievements:
 export { 
     aboutMe,
     accessTokenExpiration,
-    refreshTokenExpiration
+    refreshTokenExpiration,
+    BACKEND_URI
 };

@@ -5,42 +5,14 @@ import {
   Input,
 } from "@nextui-org/react";
 import Loader from "@/components/ui/loader";
-import { aboutMe } from "@/CONSTANTS";
+import { aboutMe, BACKEND_URI } from "@/CONSTANTS";
 import { motion, AnimatePresence } from "framer-motion";
+import axios from "axios";
 
 interface Message {
   text: string;
   sender: "not_user" | "user";
 }
-
-const {
-  GoogleGenerativeAI,
-} = require("@google/generative-ai");
-
-const apiKey = "AIzaSyCkz8e16lqdeUJfJVsHFXG3acxf0-IMqfk";
-const genAI = new GoogleGenerativeAI(apiKey);
-
-const model = genAI.getGenerativeModel({
-  model: "gemini-2.0-flash-exp",
-});
-
-async function geminiCall(promptText: string, context: string) {
-  const finalText = `${aboutMe}. This is the context of the ongoing conversation: ${context} and this is the user's message: ${promptText}. Give the user a reply!`;
-  
-  const contextText = `This is the context of the ongoing conversation: ${context} and this is the user's message: ${promptText}. Generate a new context for the conversation such that we can continue this conversation using the same.`;
-
-  // Execute both API calls in parallel using Promise.all
-  const [replyAw, contextAw] = await Promise.all([
-    model.generateContent(finalText),
-    model.generateContent(contextText)
-  ]);
-
-  const reply = replyAw.response.text();
-  const newContext = contextAw.response.text();
-
-  return { reply, newContext };
-}
-
 
 function TARSbot() {
   const [chatOpen, setChatOpen] = useState(false);
@@ -78,10 +50,13 @@ function TARSbot() {
     setInputText("");
 
     try {
-      const res = await geminiCall(inputText, context);
-      setContext(res.newContext);
+      const res = await axios.post(`${BACKEND_URI}/tars/chat`, {
+        prompt: inputText,
+        context: context,
+      });
+      setContext(res.data.data.newContext);
       const newMessage2: Message = {
-        text: formatTextAsHTML(res.reply),
+        text: formatTextAsHTML(res.data.data.response),
         sender: "not_user",
       };
       setConversation((prev) => [...prev, newMessage2]);
