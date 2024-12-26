@@ -3,6 +3,7 @@ import { useMotionValue } from "framer-motion";
 import React, { useState, useEffect } from "react";
 import { useMotionTemplate, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+import { skillsString } from "@/CONSTANTS";
 
 export const EvervaultCard = ({
   text,
@@ -17,7 +18,7 @@ export const EvervaultCard = ({
   const [randomString, setRandomString] = useState("");
 
   useEffect(() => {
-    const str = "Next.JS  TypeScript  AWS  S3  React  NodeJS  MongoDB  Express.js  Tailwind  CSS  Redux  Tool  Kit  Vercel  React  Native        Netlify  MySQL  JWT  Postman  ShadCN  NextUI  JavaScript  CSS3  HTML5  NPM  C++  Python  Pandas  NumPy  scikit-learn  TensorFlow  OpenAI  Gym  Arduino  Figma  Notion  Markdown";
+    const str = skillsString;
     setRandomString(str);
   }, []);
 
@@ -25,7 +26,7 @@ export const EvervaultCard = ({
     let { left, top } = currentTarget.getBoundingClientRect();
     mouseX.set(clientX - left);
     mouseY.set(clientY - top);
-    const str = "Next.JS  TypeScript  AWS  S3  React  NodeJS  MongoDB  Express.js  Tailwind  CSS  Redux  Tool  Kit  Vercel  React  Native  Netlify  MySQL  JWT  Postman  ShadCN  NextUI  JavaScript  CSS3  HTML5  NPM  C++  Python  Pandas  NumPy  scikit-learn  TensorFlow  OpenAI  Gym  Arduino  Figma  Notion  Markdown";
+    const str = skillsString;
     setRandomString(str);
   }
 
@@ -73,7 +74,7 @@ export function CardPattern({ mouseX, mouseY, randomString }: any) {
         className="absolute inset-0 rounded-2xl opacity-0 mix-blend-overlay  group-hover/card:opacity-100"
         style={style}
       >
-        <p className="absolute inset-x-0 text-[2.5rem] h-full break-words whitespace-pre-wrap text-white font-mono font-bold transition duration-500">
+        <p className="absolute inset-x-0 text-[2.4rem] h-full break-words whitespace-pre-wrap text-white font-mono font-bold transition duration-500">
           {randomString}
         </p>
       </motion.div>

@@ -132,11 +132,6 @@ function TARSbot() {
                   }}
                 />
                 <div className="flex w-full justify-end lg:w-auto">
-                  <Button color="danger" className="lg:hidden" isIconOnly variant="light" onPress={
-                    ()=>{
-                      handleSendMessage();
-                    }
-                  }>➤</Button>
                   <Button
                     color="danger"
                     variant="light"
@@ -152,6 +147,11 @@ function TARSbot() {
                   >
                     Reset Chat
                   </Button>
+                  <Button color="danger" className="lg:hidden" isIconOnly variant="light" onPress={
+                    ()=>{
+                      handleSendMessage();
+                    }
+                  }>➤</Button>
                 </div>
               </div>
             </div>

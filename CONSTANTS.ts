@@ -140,7 +140,10 @@ Some Achievements:
 • 1200+ DSA problems on LeetCode, GFG, and CodeStudio
 `
 
+const skillsString = `Next.JS TypeScript React NodeJS MongoDB Express.js Tailwind Redux_Tool_Kit Vercel AWS_S3 AWS_EC2 AWS_LAMBDA GCP PineconeDB Gemini MySQL Prisma JWT Postman ShadCN NextUI JavaScript Python Transformers Pytorch TensorFlow `;
+
 export { 
+    skillsString,
     aboutMe,
     accessTokenExpiration,
     refreshTokenExpiration,

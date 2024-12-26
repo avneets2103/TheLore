@@ -220,20 +220,20 @@ export const CloseIcon = () => {
 const cards = [
   {
     description: "Full Stack Doctor!",
-    title: "Medix",
-    src: "/Icons/doctor.png",
+    title: "Isha",
+    src: "/Icons/logo.png",
     ctaText: "Investigate",
-    ctaLink: "https://btp-web-tau.vercel.app/login",
-    activeSrc: "/medixMain.svg",
-    githubLink: "https://github.com/avneets2103/BTP_Web",
+    ctaLink: "https://isha-five.vercel.app/",
+    activeSrc: "/medixMain.png",
+    githubLink: "https://youtu.be/rKrkku5sxhw",
     content: () => {
       return (
         <>
         <p>
-            Power of NEXT.JS + NODE.JS + AWS + LANGCHAIN + TRANSFORMER LEARNING came together to form:
+          Powers of Vector DB + Gemini + NEXT.JS + NODE.JS + AWS + TRANSFORMERS came together to give birth to:
         </p>
         <p>
-          Medix, a cutting edge healthcare platform. The technique to store reports of patients at one place. The courage to parse those reports and create a all knowing knowledge base out them. Create Infinite amounts of graphs on the finger tips of the user based on his knowledge base. <br></br> But the power which everyone feared was the power to provide Summarized medical history, symptoms and also provide a differential diagnosis platform for the doctor.
+          Isha, a cutting edge healthcare platform. The technique to store reports of patients at one place in a vector knowledge base. The courage to parse those reports, query them and provide accurate diagnosis using them. Infinite queries answering, diagnosing, and mediacal chating.<br></br> But the power which everyone feared was the power to provide link all these powers together to create the most elite healthcare experience in one platform. What a legendary platform!
         </p>
         </>
       );
