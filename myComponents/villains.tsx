@@ -221,7 +221,7 @@ const cards = [
   {
     description: "Full Stack Doctor!",
     title: "Isha",
-    src: "/Icons/logo.png",
+    src: "/Icons/doctor.png",
     ctaText: "Investigate",
     ctaLink: "https://isha-five.vercel.app/",
     activeSrc: "/medixMain.png",
